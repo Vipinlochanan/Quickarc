@@ -1,0 +1,6 @@
+{
+  "name": "Quick Arc",
+  "description": "Mobile Welding & Light Fabrication Townsville - Official Website with service highlights, quote request, recent projects gallery, and direct messaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

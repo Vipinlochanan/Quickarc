@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: 'Hanken Grotesk', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --color-primary: #085f9e;
+  --color-steel: #4183c4;
+  --color-background: #fbf9f9;
+  --color-surface: #fbf9f9;
+  --color-surface-container: #efeded;
+  --color-surface-container-high: #e9e8e7;
+  --color-on-surface: #1b1c1c;
+  --color-on-surface-variant: #414750;
+  --color-outline-variant: #c1c7d2;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #fbf9f9;
+  color: #1b1c1c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.bento-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card-hover:hover {
+  border-color: #4183c4 !important;
+  transform: translateY(-4px);
+}
+
+.btn-shadow {
+  box-shadow: 0 4px 12px rgba(8, 95, 158, 0.15);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
